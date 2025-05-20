@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "NCU course evaluation automation",
+  "version": "1.0",
+  "description": "Automates course evaluations on iNCU",
+  "permissions": ["scripting", "tabs", "activeTab", "storage"],
+  "host_permissions": ["https://cis.ncu.edu.tw/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icon.png"
+    }
+  }
+}
